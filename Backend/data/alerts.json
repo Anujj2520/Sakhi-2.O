@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ALERT-1793594578668",
+    "deviceId": "Sakhi-001",
+    "type": "SOS",
+    "message": "Test SOS alert generated from Sakhi dashboard.",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "status": "active",
+    "createdAt": "2026-11-02T04:42:58.668Z"
+  },
+  {
+    "id": "ALERT-1793594577738",
+    "deviceId": "Sakhi-001",
+    "type": "SOS",
+    "message": "Test SOS alert generated from Sakhi dashboard.",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "status": "active",
+    "createdAt": "2026-11-02T04:42:57.738Z"
+  },
+  {
+    "id": "ALERT-1793594576607",
+    "deviceId": "Sakhi-001",
+    "type": "SOS",
+    "message": "Test SOS alert generated from Sakhi dashboard.",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "status": "active",
+    "createdAt": "2026-11-02T04:42:56.607Z"
+  },
+  {
+    "id": "ALERT-1792832725887",
+    "deviceId": "Sakhi-001",
+    "type": "SOS",
+    "message": "Test SOS alert generated from Sakhi dashboard.",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "status": "active",
+    "createdAt": "2026-10-24T09:05:25.887Z"
+  },
+  {
+    "id": "ALERT-1792831139767",
+    "deviceId": "Sakhi-001",
+    "type": "SOS",
+    "message": "Test SOS Alert from Sakhi 2.0",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "status": "active",
+    "createdAt": "2026-10-24T08:38:59.767Z"
+  }
+]
