@@ -1,5 +1,8 @@
 import { useState } from "react";
+
 import { Link } from "react-router-dom";
+
+
 import {
   ShieldCheck,
   Activity,
@@ -90,49 +93,43 @@ export default function Home() {
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
 
-            <div className="device-stage">
-              <div className="device-halo" />
+           <div className="device-stage">
+  <div className="device-halo" />
 
-              <div className="wearable">
-                <div className="wearable-top">
-                  <span className="device-light" />
-                  <span className="device-light" />
-                  <span className="device-light" />
-                </div>
+{/* NORMAL SAKHI PRODUCT IMAGE */}
+<div className="sakhi-product-container">
+  <img
+    src="/sakhi-band.png"
+    alt="Sakhi Smart Safety Wearable Band"
+    className="sakhi-product-image"
+  />
+</div>
+   
 
-                <div className="wearable-face">
-                  <div className="wearable-logo">
-                    <ShieldCheck size={34} />
-                  </div>
-                  <div className="wearable-name">SAKHI</div>
-                  <div className="wearable-subtitle">STAY CONNECTED</div>
-                  <button
-                    className="sos-button"
-                    onClick={() => setSosOpen(true)}
-                    aria-label="Open SOS demo"
-                  >
-                    SOS
-                  </button>
-                  <span className="device-caption">EMERGENCY BUTTON</span>
-                </div>
+  {/* Connectivity Card */}
+  <div className="floating-card card-connectivity">
+    <span className="mini-icon">
+      <Radio size={18} />
+    </span>
+    <div>
+      <strong>Connected concept</strong>
+      <small>Device status preview</small>
+    </div>
+    <span className="status-dot" />
+  </div>
 
-                <div className="wearable-bottom">
-                  <span />
-                </div>
-              </div>
-
-              <div className="floating-card card-connectivity">
-                <span className="mini-icon"><Radio size={18} /></span>
-                <div><strong>Connected concept</strong><small>Device status preview</small></div>
-                <span className="status-dot" />
-              </div>
-
-              <div className="floating-card card-battery">
-                <span className="mini-icon"><BatteryFull size={18} /></span>
-                <div><strong>Battery status</strong><small>Illustrative display</small></div>
-                <span className="battery-value">82%</span>
-              </div>
-            </div>
+  {/* Battery Card */}
+  <div className="floating-card card-battery">
+    <span className="mini-icon">
+      <BatteryFull size={18} />
+    </span>
+    <div>
+      <strong>Battery status</strong>
+      <small>Illustrative display</small>
+    </div>
+    <span className="battery-value">82%</span>
+  </div>
+</div>
 
             <div className="visual-caption">
               <span className="caption-line" />
@@ -149,6 +146,9 @@ export default function Home() {
             <div><Heart /><span><strong>Built with care</strong><small>Safety-focused experience</small></span></div>
           </div>
         </section>
+        {/* Sakhi 2.0 — Ink Orbit Features */}
+ 
+  
 
         <section className="content-section page-container section-padding" id="features">
           <div className="section-heading">
